@@ -1,0 +1,3 @@
+<launch>
+<node pkg="KharcheS" name="scan_values" type="test3.py"/>
+</launch>
