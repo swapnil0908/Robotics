@@ -1,0 +1,9 @@
+<launch>
+<include file ="$(find turtlebot_bringup)/launch/minimal.launch" />
+<node name="voice_cmd_vel" pkg="KharcheS" type="test2.py" output = "screen" >
+<param name="model" value="/usr/share/pocketsphinx/model/hmm/en_US/hub4wsj_sc_8k"/>
+<param name="kwlist" value="$(find KharcheS)/voice_cmd.kwlist"/>
+<param name="lexicon" value="$(find KharcheS)/voice_cmd.dic"/>
+</node>
+
+</launch>
