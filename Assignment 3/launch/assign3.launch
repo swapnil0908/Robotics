@@ -1,0 +1,9 @@
+<launch>
+<include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+<arg name="world_file" value="$(find KharcheS)/assignment3_indigo.world" />
+</include>
+<include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch" />
+<include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" />	
+<node pkg="KharcheS" name="scan_values" type="test1.py"/>
+</launch>
+
