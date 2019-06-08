@@ -1,1 +1,5 @@
+# AUTONOMOUS WAITERBOT
+
 The aim of this project is to design a robot for taking orders, serving customers and accepting payments at restaurants and catering venues. It will be a line follower and will be able to travel to the target tables while avoiding obstacles such as other tables, chairs and even humans, it will use either laser scan or SONAR to detect the obstacles.The customer will be able to call the waiterBot for placing order by using a python application interface, that would be on the table. After summoning the robot, the customer will place order verbally like ordering food in case of a human waiter. Due to physical limitations on the payload capacity of the turtlebot, the waiterbot will only be able to serve specific items such as drinks or food items weighing less than 8 pounds. 
+
+![waiterbot](https://user-images.githubusercontent.com/30382104/59148712-601e8700-89da-11e9-97df-0d24661d097e.gif)
