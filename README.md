@@ -9,7 +9,9 @@ The aim of this project is to design a simulation for a TurtleBot to taking orde
 3. Socket programming is used for the Android client and Python server to process asynchronous requests from different tables ( different colors ) on a first come first serve basis, while avoiding obstacles along the line / path.
 4. We also use the 'sound_play' package for text to speech.
 
-![waiterbot](https://user-images.githubusercontent.com/30382104/59148712-601e8700-89da-11e9-97df-0d24661d097e.gif)
+<!--![waiterbot](https://user-images.githubusercontent.com/30382104/59148712-601e8700-89da-11e9-97df-0d24661d097e.gif)-->
+
+<img src= "https://user-images.githubusercontent.com/30382104/59148619-44ff4780-89d9-11e9-8088-08535e0a4fc2.gif" width="75%">
 
 ### TOOLS USED
 ROS Indigo, Python, TurtleBots, Android programming, Gazebo and SLAM
